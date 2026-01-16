@@ -3,14 +3,12 @@ import { generatePath } from 'react-router';
 interface SwitchRoutes {
   root: string;
   characterCollection: string;
-  // createHotel: string;
   editCharacter: string;
 }
 
 export const switchRoutes: SwitchRoutes = {
   root: '/',
   characterCollection: '/characters',
-  // createHotel: '/hotels/create',
   editCharacter: '/characters/:id',
 };
 
